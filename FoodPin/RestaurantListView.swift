@@ -127,7 +127,7 @@ struct BasicTextImageRow: View {
                     Image(systemName: "phone")
                 }
             }
-        
+        ///test
             Button(action: {
                 self.restaurant.isFavorite.toggle()
             }) {
